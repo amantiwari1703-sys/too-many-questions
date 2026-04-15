@@ -1,13 +1,9 @@
 public class naman {
-    int a;
-    public naman(int a) {
-        this.a = a;
-    }
-    void show() {
-        System.out.println(a);
+    static String msg() {
+        return "python";
     }
     public static void main(String[] args){
-        new naman(20).show();
-
+        naman n=new naman();
+        System.out.println(n.msg());
     }
 }
