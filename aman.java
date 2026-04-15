@@ -1,25 +1,10 @@
 import java.util.Scanner;
 
 public class aman {
-    int a;
-    public aman(int a){
-      this.a=a;
-    }
+    int b=7;
     public static void main(String[] args){
-        aman am=new aman(5);
-        System.out.println(am.a);
-
-
-    }
-//    static void greed() {
-//        System.out.println("hello");
-//
-//
-//
-//    }
-//    public static void main(String[] args){
-//        greed();
+        aman am=new aman();
+        System.out.println(am.b);
 
     }
-
-
+}
