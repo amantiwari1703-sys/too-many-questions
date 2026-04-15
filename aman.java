@@ -2,16 +2,21 @@ import java.util.Scanner;
 
 public class aman {
     public static void main(String[] args) {
-        int a = 22;
-        int b = 13;
-        int c = 21;
-        if (a > b && a > c) {
-            System.out.println(a);
+        int day=4;
+        switch(day){
+            case 1:
+                System.out.println("mon");
+                break;
+            case 2:
+                System.out.println("tues");
+                break;
+            case 3:
+                System.out.println("weds");
+                break;
+            default:
+                System.out.println("other");
 
-        } else if (b > c) {
-            System.out.println(b);
-        } else {
-            System.out.println(c);
         }
+
     }
 }
