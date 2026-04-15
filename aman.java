@@ -1,15 +1,15 @@
 import java.util.Scanner;
 
 public class aman {
-    public static void main(String[] args){
-        Scanner sc=new Scanner(System.in);
-        int num=sc.nextInt();
-        if(num%2==0){
-            System.out.println("even");
+    static int add(int a, int b) {
+        return a + b;
 
-        }else{
-            System.out.println("odd");
-        }
+
+
+    }
+    public static void main(String[] args){
+        System.out.println(add(7,6));
 
     }
 }
+
