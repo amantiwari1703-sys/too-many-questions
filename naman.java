@@ -1,11 +1,13 @@
-import java.util.Scanner;
 public class naman {
-    public static void main(String[] args){
-//       String a="python";
-//        System.out.println(a.length());
-Scanner sc=new Scanner(System.in);
-String name=sc.nextLine();
-        System.out.println("hello");
+    int a;
+    public naman(int a) {
+        this.a = a;
     }
+    void show() {
+        System.out.println(a);
+    }
+    public static void main(String[] args){
+        new naman(20).show();
 
+    }
 }
