@@ -2,15 +2,16 @@ import java.util.Scanner;
 
 public class aman {
     public static void main(String[] args) {
-        float e = 23.3f;
-        double r = 24.24;
-        System.out.println(e + r);
+        int a = 22;
+        int b = 13;
+        int c = 21;
+        if (a > b && a > c) {
+            System.out.println(a);
+
+        } else if (b > c) {
+            System.out.println(b);
+        } else {
+            System.out.println(c);
+        }
     }
-
-//    int b=7;
-//    public static void main(String[] args){
-//        aman am=new aman();
-//        System.out.println(am.b);
-
-    }
-
+}
